@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: mitto98/dependabot-automerge-action@master
         with:
-          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           merge-patch: true
